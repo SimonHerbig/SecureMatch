@@ -1,7 +1,19 @@
-# Nod & Know
+# SecureMatch
+The Challenge: Traditional cybersecurity training often struggles with low user engagement.
 
-Nod & Know is an interactive security awareness demo. It uses your webcam to detect nodding for **yes** and shaking for **no** while you answer short security questions. Votes are stored in your browser and you can join an anonymous chat to discuss each question.
-Messages that begin with `@ai` will summon an automated assistant powered by DeepSeek to provide more information about the current topic. Answers include a couple of suggested follow-up questions to keep the discussion going.
+The Solution: A Privacy-First, Gamified Interaction Loop. "Secure Match" is a Public Security User Interface (PSUI) [prototype designed to solve this](https://www.figma.com/proto/fkKpp87tJ7glGrov6AkjdH/SecureMatch-Prototype?node-id=1-2&starting-point-node-id=1%3A2&t=PpDtmNnlRbMUkY4J-1). It creates an engaging, multi-stage experience that encourages active participation while protecting user privacy.
+
+Core Concept: Gesture-Voting, Balanced Grouping & AI-Assisted Chat
+
+The core innovation is its unique, three-stage interaction model:
+
+1. Gesture-Based Voting: Users are presented with security scenarios as simple Yes/No questions (e.g., "Is this email a phishing attempt?"). They vote in real-time using intuitive, privacy-preserving gestures: nodding for "Yes" or shaking their head for "No".
+
+2. Balanced Grouping (via Public Display): After voting, the system forms balanced discussion groups composed of users who gave different answers. This is designed to foster debate and peer-to-peer learning. These groups are visualized on a central public display.
+
+3. QR-Code Transfer & AI Chat: To continue the discussion privately, users can scan a QR code from the display, transferring the chat to their personal devices. Within this chat, messages that begin with @ai will summon an automated assistant powered by DeepSeek to provide more information about the current topic. These answers also include suggested follow-up questions to keep the discussion going.
+
+This loop (Vote -> Group -> Transfer) maximizes engagement by encouraging active discussion between users with opposing viewpoints, all while maintaining privacy.
 
 ## Getting Started
 
